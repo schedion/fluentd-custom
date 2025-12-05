@@ -1,4 +1,4 @@
 FROM fluent/fluentd:latest
 USER root
-RUN ["fluent-gem", "install", "influxdb-v2"]
+RUN ["fluent-gem", "install", "fluent-plugin-influxdb-v2"]
 USER fluent
